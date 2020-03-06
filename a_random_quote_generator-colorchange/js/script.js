@@ -71,7 +71,7 @@ function printQuote () {
 
   //Conditional statement to  attach occupation is included on object.//
   if(printRandomQuote.occupation){
-    quoteMessage += ", "+ '<span class="occupation">' +printRandomQuote.occupation+ '</span>';
+    quoteMessage += ", "+'<span class="occupation">' +printRandomQuote.occupation+ '</span>';
   }
   //closed quoteMessage call <p></p>
     quoteMessage += '</p>';
